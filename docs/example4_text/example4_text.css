@@ -1,6 +1,7 @@
 /* 文章の見た目の設定 */
 .paragraph {
   border: solid #1b0303 1px;
+  box-sizing: border-box;
   width: 100%;
   height: 300px;
 
