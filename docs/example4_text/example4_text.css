@@ -1,13 +1,16 @@
-.container {
+.paragraph {
+  border: dotted #1b0303 1px;
+  width: 600px;
+  height: 300px;
+
   font-family: "Rounded Mplus 1c";
   font-weight: 700;
   font-size: 30px;
 }
 
 /* 中央揃えのためのコード */
-.container {
+.paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
