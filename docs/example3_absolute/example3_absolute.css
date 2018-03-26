@@ -1,6 +1,6 @@
 /* コンテナ、ボックスの見た目の設定 */
 .container {
-  border: dotted #1b0303 1px;
+  border: solid #1b0303 1px;
   width: 600px;
   height: 300px;
 }
