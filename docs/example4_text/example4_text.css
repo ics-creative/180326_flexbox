@@ -1,0 +1,13 @@
+.container {
+  font-family: "Rounded Mplus 1c";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* 中央揃えのためのコード */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

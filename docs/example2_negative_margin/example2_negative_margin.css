@@ -1,0 +1,35 @@
+.container {
+  border: dotted #1b0303 1px;
+  width: 600px;
+  height: 300px;
+}
+
+.box {
+  background-color: #f53838;
+  width: 200px;
+  height: 100px;
+}
+
+/*中央揃えのためのコード（6行〜4行） */
+
+.container {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -50px;
+}
+
+/* calc()を使うパターン  */
+
+/*
+.box {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 50px);
+}
+ */

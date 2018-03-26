@@ -1,0 +1,18 @@
+.container {
+  border: dotted #1b0303 1px;
+  width: 600px;
+  height: 300px;
+}
+
+.box {
+  background-color: #f53838;
+  width: 200px;
+  height: 100px;
+}
+
+/* 中央揃えのためのコード（3行） */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
