@@ -1,7 +1,7 @@
 /* 文章の見た目の設定 */
 .paragraph {
   border: solid #1b0303 1px;
-  width: 600px;
+  width: 100%;
   height: 300px;
 
   font-family: "Rounded Mplus 1c";

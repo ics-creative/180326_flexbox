@@ -11,7 +11,7 @@
   height: 200px;
 }
 
-/*中央揃えのためのコード（6行） */
+/*中央揃えのためのコード（4行） */
 
 .container {
   position: relative;
@@ -19,8 +19,6 @@
 
 .box {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -100px;
+  left: calc(50% - 150px);
+  top: calc(50% - 100px);
 }
