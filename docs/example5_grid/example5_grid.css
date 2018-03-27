@@ -12,9 +12,22 @@
   height: 200px;
 }
 
-/*中央揃えのためのコード（3行） */
+
+/*中央揃えのためのコード（IE 11を考慮） */
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*中央揃えのためのコード（IE 11を考慮しない） */
+/*
 .container {
   display: grid;
   justify-content: center;
   align-items: center;
 }
+*/
