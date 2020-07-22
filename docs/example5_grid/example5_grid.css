@@ -12,7 +12,7 @@
   height: 200px;
 }
 
-/*中央揃えのためのコード（※ IE 11に非対応） */
+/* 中央揃えのためのコード（※ IE 11に非対応） */
 .container {
   display: grid;
   place-items: center;

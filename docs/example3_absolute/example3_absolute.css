@@ -12,7 +12,7 @@
   height: 200px;
 }
 
-/*中央揃えのためのコード（7行） */
+/* 中央揃えのためのコード（7行） */
 .container {
   position: relative;
 }
