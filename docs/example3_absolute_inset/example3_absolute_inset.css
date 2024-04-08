@@ -1,0 +1,24 @@
+/* コンテナ、ボックスの見た目の設定 */
+.container {
+    border: 2px solid #1b0303;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+}
+
+.box {
+    background-color: #f53838;
+    width: 300px;
+    height: 200px;
+}
+
+/* 中央揃えのためのコード（4行） */
+.container {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
